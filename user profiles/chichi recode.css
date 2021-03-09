@@ -1,0 +1,81 @@
+html {
+background:#f0dfb9 url(http://www.aywas.com/images/explore/locations/01652958/site_background_day.png) repeat-x fixed; }
+
+body {
+position:static !important;
+top:auto;
+font-family:trebuchet ms;
+font-size:9pt;
+color:#590000;
+line-height:11pt; }
+
+a {
+color:#FF6600; }
+
+a:hover {
+color:#000000; }
+
+b {
+color:#B80000; }
+
+#comment-panel .content span,#comment-panel .content a {
+font-size:7pt; }
+
+#comment-panel img {
+width:50px;
+height:50px; }
+
+#container {
+width:1000px;
+padding:0px;
+float:none;
+margin:0 auto !important;
+position:static !important;
+top:0px; }
+
+#column_1 {
+margin-left:17px; }
+
+#column_1,#column_2,#column_3 {
+margin-top:45px;
+margin-bottom:40px; }
+
+.panel {
+opacity:.85;
+border:2px solid #6F0000;
+margin-bottom:10px;
+-moz-border-radius:5px;
+-khtml-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px; }
+
+.panel:hover {
+opacity:.95; }
+
+#profile-nav #nav-right {
+display:none; }
+
+h1 {
+-moz-border-radius:5px;
+-khtml-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px 5px 2px 2px;
+text-align:left;
+padding-left:5px;
+margin-bottom:6px; }
+
+#profile-nav {
+background:none;
+padding:0px;
+margin:0px;
+position:absolute;
+top:10px;
+left:10px;
+border:0px;
+opacity:.5 }
+
+#profile-nav:hover {
+opacity:1; }
+
+#comment-form {
+display: inline !important; }
