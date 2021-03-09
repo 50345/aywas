@@ -1,0 +1,233 @@
+html {
+background: url(http://data3.whicdn.com/images/37424480/superthumb.jpg) top left repeat #ffffff;
+width: 100%;
+min-width: 1000px; }
+
+body {
+font-family: trebuchet ms;
+font-size: 9pt;
+color: #000000;
+line-height: 11pt;
+position: static !important; }
+
+#profile-nav {
+background: transparent;
+border: none;
+margin-top: -5px;
+color: #ffffff !important;
+min-width: 940px !important; }
+
+#nav-details {
+color: #000000 !important; }
+
+#nav-right a {
+color: #ffffff !important; 
+text-shadow: 1px 1px 1px #919fad;
+font-family: arial;
+font-size: 10px;
+letter-spacing: 1px;
+text-transform: lowercase; }
+
+#nav-right a:hover {
+color: #000000 !important;
+text-shadow: 1px 1px 1px #ffffff; }
+
+#nav-home a {
+background: transparent !important;
+text-indent: 0px !important;
+color: #ffffff !important;
+width: auto !important;
+text-shadow: 1px 1px 1px #919fad;
+font-family: arial;
+font-size: 10px;
+letter-spacing: 1px;
+text-transform: lowercase; }
+
+#nav-home a:hover {
+color: #000000 !important;
+text-shadow: 1px 1px 1px #ffffff; }
+
+a {
+color: #919fad; }
+
+a:hover {
+color: #000000; }
+
+#container {
+float: none;
+position: relative !important;
+top: 0px; }
+
+#column_1, #column_2, #column_3 {
+display: none !important;
+margin: 0px !important; }
+
+#column_2 {
+display: block !important; }
+
+#column_1 {
+display: block !important;
+position: absolute;
+top: 38px;
+left: 619px;
+width: 320px;
+height: 512px;
+background: rgba(255,255,255,0.5);
+overflow: auto;
+overflow-y: scroll;
+padding: 0px 15px; }
+
+#column_1 .panel {
+background: transparent !important;
+border: none !important;
+font-family: arial;
+font-size: 10px;
+letter-spacing: 1px;
+color: #000000;
+margin: 10px auto; }
+
+strong {
+display: block !important;
+border-bottom: 1px dashed #000000; }
+
+h1 {
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+font-weight: normal;
+text-align: right;
+padding-left: 5px;
+margin-bottom: 6px;
+background: #919fad;
+color: #ffffff;
+font-size: 13px;
+letter-spacing: 1px;
+padding-right: 5px;
+font-family: georgia; }
+
+#equipped-panel, #trophies-panel {
+overflow: hidden !important; }
+
+#equipped-panel div, #trophies-panel div {
+height: 100px !important;
+width: 100% !important;
+padding: 5px;
+padding-right: 50px !important;
+overflow: auto !important; }
+
+#equipped-panel div a {
+display: block !important; }
+
+#equipped-panel strong, #trophies-panel strong, #equipped-panel br, #trophies-panel br {
+display: none !important; }
+
+img {
+max-width: 100%; }
+em {
+font-size: 9px;
+font-weight: bold; }
+
+/* comments */
+
+#comment-panel {
+display: block !important;
+background: rgba(255,255,255,0.5);
+border-radius: 10px;
+box-shadow: 5px 5px 6px #525252; 
+position: absolute;
+top: 425px;
+left: 200px;
+width: 350px !important; }
+
+#comment-panel:hover {
+width: 150px;
+height: auto; }
+
+#comment-form {
+display: block !important; }
+
+#comment-panel dl, #comment-panel h1, #comment-form input:last-child {
+display: none !important; }
+
+#comment-panel p a {
+color: #000000;
+font-size: 7px;
+display: block;
+position: absolute;
+top: 7px;
+right: 5px; }
+
+#comment-panel a.a-button {
+display: block !important;
+position: static !important;
+color: #000000;
+font-size: 10px !important;
+text-align: left !important;
+cursor: default !important; }
+
+input {
+background: transparent;
+border: none;
+cursor: pointer;
+color: #919fad;
+font-weight: bold;
+float: left; }
+
+textarea {
+background: #ffffff;
+color: #000000;
+border: 1px solid #aaaaaa;
+border-radius: 5px;
+padding: 3px;
+width: 97% !important;
+height: 75px !important; }
+
+textarea:hover {
+border: 1px solid #000000; }
+
+/* link panel */
+
+#link-panel {
+display: block !important;
+background: transparent;
+width: 150px;
+position: absolute !important;
+top: 20px;
+left: 466px;
+z-index: 10000 !important; }
+
+#link-panel h1 {
+display: none; }
+
+#link-panel li {
+display: block !important;
+margin: 10px 0px;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+transition: all 1s ease;
+padding: 5px 0px;
+padding-left: 20px !important;
+overflow: hidden;
+width: 0px !important;
+float: right !important;
+clear: right !important;
+background: #919fad; 
+z-index: 10000 !important; }
+
+#link-panel li a {
+display: block !important;
+color: #ffffff;
+line-height: 20px;
+height: 20px;
+width: 140px !important; }
+
+#link-panel li:hover {
+width: 130px !important; }
+
+#custom-13-panel { /* change this panel ID to your own custom panel ID (1/2) */
+position: absolute;
+background: none; }
+
+#custom-13-panel h1 { /* chagne this panel ID to your own custom panel ID (2/2) */
+	display: block !important;
+	width: 450px !important;
+}
