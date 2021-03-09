@@ -1,0 +1,98 @@
+body {
+background:none !important;
+font-family:trebuchet ms;
+font-size:10pt;
+line-height:10pt;
+font-family: times new roman; }
+
+html * {
+font-family: times new roman;
+color: #000000;
+background: transparent; }
+
+html {
+background: #5CAFD8 !important; }
+
+#side,#page-header,#user-notice-table, #footer {
+display:none; }
+
+#gradient, #container {
+background: transparent; }
+
+#backdrop {
+background: url(http://i.imgur.com/c5x1x.png);
+width: 100% !important;
+margin: 0px auto;
+-moz-border-radius:100%;
+-khtml-border-radius: 100%;
+-webkit-border-radius: 100%;
+border-radius: 100%;
+border: 3px dotted #FBE58E; 
+margin-bottom: 25px; }
+
+
+#main {
+width: 800px !important;
+background: transparent; }
+
+#content {
+background: transparent;
+background-size: 100% auto;
+-moz-border-radius:15px;
+-khtml-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius: 10%;
+padding:10px;
+border: none; }
+
+table.y-tables tr th.highlight, table.y-tables tr.highlight th,h2{
+background:#5CAFD8 !important;
+color: #000000;
+text-align:center;
+padding-left:5px;
+margin-bottom:6px;
+height:18px;
+line-height:18px !important;
+font-size:14px;
+border: 1px solid #FBE58E; }
+
+.center h1 {
+color: #000000;
+font-size: 150%; }
+
+input[type=button].a-button:hover,
+a.a-button:hover,
+input[type=submit].a-button:hover {
+	background-color: #FBE58E; }
+
+input[type=button].a-button,
+a.a-button,
+input[type=submit].a-button {
+	padding: 6px 10px;
+	-webkit-border-radius: 2px 2px;
+	border: 1px solid #5CAFD8;
+	color: #000000;
+	background-color:#FBE58E;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	text-shadow: none;
+	line-height: 1;
+	font-weight: bold; }
+
+a {
+color: #000000;
+text-decoration: none;
+transition: all 1s ease-in-out;
+transform: scale(1) }
+
+a:hover {
+color: #000000;
+transform: scale(1.1); }
+
+table.y-tables tr td a, .center p a {
+color: #000000; }
+
+table.y-tables tr td a:hover, .center p a:hover {
+color: #000000; }
