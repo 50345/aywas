@@ -1,0 +1,176 @@
+html {
+background: #e1e1e1; }
+
+body {
+position: relative; }
+
+#container, .column {
+float: none !important;
+display: block !important;
+position: static !important; }
+
+#profile-nav {
+background: transparent;
+border: none; }
+
+#nav-right {
+display: none; }
+
+#nav-home {
+opacity: 0.5; }
+
+#nav-home:hover {
+opacity: 0.75; }
+
+.panel {
+display: none; }
+
+h1 {
+font-family: times new roman;
+font-weight: normal;
+font-variant: small-caps;
+color: #007ba7;
+letter-spacing: 2px;
+background: transparent;
+border-bottom: 1px inset #525252;
+margin-bottom: 5px;
+text-transform: lowercase; }
+
+a {
+color: #007ba7;
+font-weight: normal;
+font-family: times new roman;
+font-size: 10px;
+text-transform: lowercase;
+font-variant: small-caps; }
+
+a:hover {
+color: #000000; }
+
+#info-panel { /* use the settings here to edit your display image */
+background: url(https://i.pinimg.com/736x/d6/17/2b/d6172be1d2e70a002b0cfa65a83764f5--winged-victory-of-samothrace-louvre-paris.jpg) center center no-repeat #000000;
+background-size: auto 500px;
+height: 490px;
+width: 460px;
+position: absolute;
+top: 50px;
+left: 150px;
+border-radius: 10px;
+display: block !important; }
+
+#info-panel .content, #info-panel h1 {
+display: none; }
+
+#column_2 {
+background: #ffffff;
+color: #525252;
+height: 500px;
+width: 450px;
+position: absolute !important;
+top: 50px;
+left: 650px;
+overflow: hidden;
+border-radius: 10px; }
+
+#column_2:hover {
+width: 467px;
+overflow-y: scroll; }
+
+#column_2 .panel {
+background: transparent;
+display: block !important;
+width: 400px;
+margin: 0px auto !important; }
+
+#comment-panel dl img {
+max-height: 50px; }
+
+#comment-panel dl dt span.gen-small {
+font-weight: normal;
+font-family: times new roman;
+font-size: 10px;
+text-transform: lowercase;
+font-variant: small-caps; }
+
+#comment-panel dl input {
+display: none; }
+
+#comment-panel a.a-button {
+display: block !important;
+font-family: times new roman;
+font-weight: normal;
+font-variant: small-caps;
+color: #007ba7 !important;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 2px;
+background: transparent;
+border-bottom: 1px inset #525252;
+margin-bottom: 5px;
+cursor: default !important; }
+
+input {
+background: transparent;
+border: none;
+color: #007ba7;
+font-weight: normal;
+font-family: times new roman;
+font-size: 5px;
+text-transform: lowercase;
+font-variant: small-caps;
+cursor: pointer; }
+
+input:hover {
+color: #000000; }
+
+#comment-form {
+display: inline !important; }
+
+#comment-form input {
+	font-size: 10px !important;
+}
+
+#comment-form input:last-child {
+display: none !important; }
+
+textarea {
+background: #e1e1e1;
+height: 100px !important;
+width: 97% !important;
+padding: 5px;
+resize: none;
+border: none;
+border-radius: 5px;
+color: #525252; }
+
+/* all of the below is dedicated to editing your links panel */
+
+#link-panel {
+display: block !important;
+background: transparent;
+width: 150px;
+position: absolute;
+top: 100px; }
+
+#link-panel h1 {
+display: none; }
+
+#link-panel li {
+float: right !important;
+display: block !important;
+background: #007ba7;
+padding: 2px 5px;
+margin: 3px 0px;
+border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
+text-align: left;
+width: 90px;
+border-right: 0px solid #007ba7;
+transition: 1s all ease-out; }
+
+#link-panel li:hover {
+border-right: 10px solid #007ba7;
+transition: 1s all ease-out; }
+
+#link-panel li a {
+color: #ffffff; }
