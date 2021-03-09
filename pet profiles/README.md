@@ -5,3 +5,11 @@
 **Bumblerina**
 
 ![bumblerina](https://raw.githubusercontent.com/50345/aywas/main/pet%20profiles/bumblerina/487a7f80_preview.jpg)
+
+**Iyagi**
+
+![iyagi](https://raw.githubusercontent.com/50345/aywas/main/pet%20profiles/iyagi/be5734fe.jpg)
+
+**Ketsurui**
+
+![ketsurui](https://raw.githubusercontent.com/50345/aywas/main/pet%20profiles/ketsurui/1a75f3b2.jpg)
