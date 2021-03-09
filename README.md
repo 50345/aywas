@@ -1,4 +1,4 @@
-See something I made that you want included in this resource? Shoot me a message on the thread.
+See something I made that you want included in this resource? [Shoot me a message on the thread](http://www.aywas.com/forum/topic/2004438811/).
 
 ## TOS
 - Do not claim this code as your own and/or sell any parts of it for the sake of profit.
