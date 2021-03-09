@@ -24,4 +24,4 @@ See something I made that you want included in this resource? Shoot me a message
 **A:** Copy and paste the HTML to the pet description box (located near the top of the page where you edit your pet, below name, title, and gender.
 
 **Q:** How do I find the ID for a custom box on my user profile?<br />
-**A:** Tutorial here. (update later)
+**A:** [Tutorial here](https://github.com/50345/aywas/blob/main/tutorials/finding%20a%20custom%20box%20id.md).
