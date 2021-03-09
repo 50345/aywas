@@ -1,6 +1,6 @@
 This profile is similar to the highlight image theme. Named after a dear friend of mine. 
 
-![pesh profile preview](https://raw.githubusercontent.com/50345/aywas/main/user%20profiles/pesh/683be5a8_preview.jpg)
+![pesh profile preview](https://raw.githubusercontent.com/50345/aywas/main/user%20profiles/pesh/abebbef7_preview.jpg)
 
 ## SETUP
 
