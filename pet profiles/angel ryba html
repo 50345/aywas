@@ -1,0 +1,33 @@
+<div id="mama">
+<div id="cc">
+<div id="title">testing testing<div class="sub-title">testing testing testing</div><div class="buffer">buffer</div></div>
+
+
+
+
+<div id="title2"><div class="border one">border</div>
+testing testing
+<div class="border two">border</div>
+<div class="buffer left">buffer</div>
+<div class="buffer right">buffer</div></div>
+
+<div id="main-box">
+
+<div class="content">
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ante convallis, pulvinar erat a, egestas dui. In volutpat ex eu tortor finibus, quis tempor dolor gravida. Nulla hendrerit cursus nibh ut ultricies. Curabitur consectetur sem ex, nec semper urna venenatis aliquet. Aliquam erat volutpat. Donec rutrum sed libero nec bibendum. Nulla quam arcu, commodo sed maximus quis, facilisis sit amet justo. Nullam ultricies eleifend est non laoreet. In hac habitasse platea dictumst. Morbi pretium nunc a lacus hendrerit tempus. Vivamus eros est, sodales et ante sit amet, vehicula consequat ipsum. Vivamus iaculis ipsum id consequat dapibus. Mauris at pulvinar leo, quis porta ligula. Vestibulum malesuada dolor sit amet malesuada lobortis.
+<br /><br />
+Phasellus non euismod nulla. Proin ornare enim placerat ex posuere vulputate. Duis ultricies mollis lectus, ut dapibus enim. Nam nec dolor lorem. Sed eu sem vitae magna pharetra hendrerit. Donec sagittis viverra velit, sed sodales justo finibus ut. Proin commodo ipsum id justo rutrum imperdiet. Morbi tortor sem, fringilla quis quam eu, placerat tristique justo. Mauris a scelerisque est, a consectetur lacus. Phasellus condimentum volutpat purus, non ultrices lorem ultrices non. Donec laoreet porttitor magna quis iaculis. Etiam sed congue est. Donec non facilisis lectus. Ut neque enim, venenatis sit amet vestibulum id, sagittis vitae nulla. 
+</div>
+
+
+</div>
+
+
+<div id="credits"><div class="buffer left">buffer</div><div class="buffer right">buffer</div>code © <a href="http://www.aywas.com/up/view/50345/">ezra (#50345)</a> || beware invisible scrolling</div>
+
+
+</div>				
+				
+</div>
