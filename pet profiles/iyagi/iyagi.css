@@ -1,0 +1,223 @@
+/* erase menus, footers, etc. */
+#page-header, #side, #footer, #user-notice-table, .page-notice {
+display: none !important; }
+
+/* creates the canvas */
+
+html {
+height: 100%;
+width: 100%;
+background: url() #ffffff; }
+
+body {
+height: 100%;
+width: 100%;
+padding: 0px !important; 
+background: transparent !important; }
+
+#gradient, #container, #backdrop, #main, #content, #content div.center {
+height: 100% !important;
+width: 100% !important;
+min-width: 1000px !important;
+margin: 0px auto !important;
+padding: 0px !important;
+position: relative !important;
+border: 0px solid #00ff00 !important;
+background: transparent !important; }
+
+img {
+max-width: 100%; }
+
+/* erase */
+
+a[href^="http://www.aywas.com/pet_shops/add_pet/?petid"], /* sent pet to shop link */
+p a[href^="http://www.aywas.com/pp/comments/"], /* view comments */
+div.center table[width="500"], /* comments */
+textarea {
+display: none !important; }
+
+div.center > p:nth-child(9), /* pet page */
+div.center input.a-button, /* release into the wild */
+p a[href^="http://www.aywas.com/adoption/"], /* adoption center */
+p a[href^="http://www.aywas.com/pet_gift/"], /* gift pet */
+p a[href^="http://www.aywas.com/pet_auction/"], /* auction pet */
+p a[href^="http://www.aywas.com/pp/upload/"], /* upload larger image */ 
+p a[href^="http://www.aywas.com/pets/fauna/"], /* fauna */
+td a[href^="http://www.aywas.com/pets/fauna/"] /* remove fauna */ { 
+display: none !important; }
+
+/* holiday buttons */
+a[href^="http://www.aywas.com/holiday_tree/give/pet/"] /* send to gift tree */ {
+display: none !important; }
+
+div.center a.a-button[href^="http://www.aywas.com/pets/edit/"] /* edit button */ {
+display: block;
+position: absolute;
+top: 5px;
+right: 5px;
+width: 85px;
+background: #ffffff !important;
+color: #000000 !important; }
+
+div.center a.a-button[href^="http://www.aywas.com/pets/active/"] /* active button */ {
+display: block;
+position: absolute;
+top: 5px;
+right: 105px;
+width: 85px;
+background: #ffffff !important;
+color: #000000 !important; }
+
+.center, .center h1, .center h2 {
+color: rgba(0,0,0,0.0);
+position: absolute; }
+
+.center #mama, .center table.y-tables {
+color: #525252 !important; }
+
+/* custom stuff */
+
+div.center > p:nth-child(1) {
+height: 150px;
+width: 150px;
+display: block !important;
+border: 2px solid #525252;
+border-radius: 100%;
+box-shadow: 3px 3px 6px rgba(100,100,100,0.7);
+padding: 10px !important;
+overflow: hidden !important;
+background: #ffffff;
+position: absolute;
+top: 120px;
+left: 50px; }
+
+a#aywas {
+height: 150px;
+width: 150px;
+display: block !important;
+border: 2px solid #525252;
+border-radius: 100%;
+box-shadow: 3px 3px 6px rgba(100,100,100,0.7);
+padding: 10px !important;
+overflow: hidden !important;
+background: transparent !important;;
+position: absolute;
+top: 120px;
+left: 50px;
+color: rgba(0,0,0,0.0) !important; }
+
+a {
+color: #000000 !important;
+text-decoration: none; }
+
+a:hover {
+color: #e1e1e1 !important;
+text-decoration: none; }
+
+a:active {
+color: darkred; }
+
+/* info tables */
+
+table.y-tables {
+display: block !important;
+height: 100px !important;
+width: 270px !important;
+border: 1px dashed #525252 !important;
+overflow-y: auto !important; 
+font-family: courier;
+font-size: 7pt;
+position: absolute;
+top: 320px;
+left: 10px; }
+
+
+/* table headers */
+table.y-tables tbody tr.highlight {
+background: transparent !important; }
+
+table.y-tables tbody tr.highlight th {
+background: transparent !important;
+color: #525252 !important;
+font-weight: normal;
+font-family: courier;
+font-size: 8pt;
+letter-spacing: 1px;
+text-align: right;
+border-bottom: 1px solid #525252; }
+
+/* making 1 column */
+table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1), table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) {
+display: block !important;
+width: 250px !important; }
+
+/* erase fauna button */
+table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(2) {
+display: none !important; }
+
+/* remove "remove fauna" button */
+table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(4) {
+display: none !important; }
+
+/* remove fauna points */
+table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(3) {
+display: none !important; }
+
+/* name */
+#name {
+font-size: 50px;
+text-shadow: 2px 2px 6px rgba(100,100,100,0.7);
+position: absolute;
+top: 50px;
+left: 60px;
+color: #525252; }
+
+/* scroll */
+#scroll {
+padding: 25px;
+box-shadow: 3px 3px 6px rgba(100,100,100,0.7);
+width: 500px;
+position: relative;
+left: 350px;
+top: 70px; 
+text-align: justify;
+text-justify: inter-word;
+margin-bottom: 50px; }
+
+#scroll #border {
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100% !important;
+background: url(http://colourlovers.com.s3.amazonaws.com/images/patterns/3942/3942839.png);
+width: 10px; }
+
+.hide {
+display: none; }
+
+h4 {
+font-size: 25px;
+text-align: left;
+font-family: times new roman;
+border-bottom: 1px solid #e1e1e1;
+color: #e1e1e1;
+margin-bottom: 10px;
+cursor: pointer;
+font-variant: small-caps; }
+
+h4 span {
+font-size: 15px;
+padding-left: 25px; }
+
+h4:hover {
+color: #525252; }
+
+strong {
+display: inline-block !important;
+margin-right: 50px !important; }
+
+/* credits */
+#credits {
+position: absolute;
+top: 430px;
+left: 35px; }
