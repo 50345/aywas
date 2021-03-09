@@ -1,5 +1,7 @@
 This is a user profile set up with a basic white background, black navigation header, and multiple pages. 
 
+![clean multipage preview](https://raw.githubusercontent.com/50345/aywas/main/user%20profiles/clean%20multi-page/13e84a19_preview.jpg)
+
 ## Profile Details Setup
 
 Column 1:
