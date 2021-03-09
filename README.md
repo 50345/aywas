@@ -1,5 +1,9 @@
 See something I made that you want included in this resource? Shoot me a message on the thread.
 
+## TOS
+- Do not claim this code as your own and/or sell any parts of it for the sake of profit.
+- Don't do anything that would make me have to add to this. 
+
 ## Frequently Asked Questions
 
 **Q:** Can I use your code for the AaC feature on Aywas?<br />
