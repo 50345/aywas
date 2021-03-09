@@ -1,0 +1,87 @@
+#profile-nav {
+display: none; }
+
+html, body {
+background: #ffffff; 
+font-family: sans-serif;
+font-size: 11px; 
+letter-spacing: 1px; }
+
+body {
+min-width: 1000px; }
+
+#container {
+width: 1000px;
+display: block !important;
+position: relative; 
+margin: 0px auto !important; 
+float: none;
+top: 0px; }
+
+#column_2, #column_3 {
+display: none; }
+
+.column {
+padding-top: 42px; 
+float: none !important; }
+
+#column_2:target, #column_3:target {
+display: block;
+position: absolute;
+left: 0px;
+top: 0px;
+width: 760px;
+z-index: 1 !important; 
+background: #ffffff;
+min-height: 550px; 
+margin: 0px !important; }
+
+#column_1 #custom-40-panel { /* change for welcome page 1/1 */
+display: block !important;
+position: absolute !important;
+top: 42px !important;
+left: -775px;
+width: 750px; }
+
+#column_1 {
+position: absolute;
+right: 0px; 
+top: 0px; }
+
+#column_1 #custom-19-panel h1 { /* change for navigation 1/5 */
+display: none; }
+
+#column_1 #custom-19-panel { /* change for navigation 2/5 */
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+background: #000000;
+text-align: center;
+padding: 0px;
+z-index: 10000 !important; }
+
+#column_1 #custom-19-panel .content { /* change for navigation 3/5 */
+padding: 0px;
+margin: 0px; }
+
+#column_1 #custom-19-panel a { /* change for navigation 4/5 */
+display: inline-block;
+width: 97px;
+padding: 5px;
+font-size: 13px;
+color: #ffffff;
+font-weight: normal;
+background: #000000; }
+
+#column_1 #custom-19-panel a:hover { /* change for navigation 5/5 */
+background: #525252;
+color: #e1e1e1; }
+
+h1 {
+background: #e1e1e1;
+color: #525252;
+font-weight: normal;
+font-size: 13px;
+text-transform: lowercase;
+font-variant: small-caps; }
