@@ -1,0 +1,395 @@
+/* erase menus, footers, etc. */
+#page-header, #side, #footer, #user-notice-table, .page-notice, #user-news {
+display: none !important; }
+
+/* creates the canvas */
+
+html {
+height: 100%;
+width: 100%;
+background: #5B869C; }
+
+body {
+height: 100%;
+width: 100%;
+padding: 0px !important; 
+background: transparent !important; }
+
+#gradient, #container, #backdrop, #main, #content, #content div.center {
+height: auto !important;
+width: 1000px !important;
+margin: 0px auto !important;
+padding: 0px !important;
+position: relative !important;
+border: 0px solid #00ff00 !important;
+background: transparent !important;
+overflow: visible !important; }
+
+/* erase */
+
+a[href^="http://www.aywas.com/pet_shops/add_pet/?petid"], /* sent pet to shop link */
+p a[href^="http://www.aywas.com/pp/comments/"], /* view comments */
+div.center table[width="500"] /* comments */ {
+display: none !important; }
+
+div.center > p:nth-child(9), /* pet page */
+div.center input.a-button, /* release into the wild */
+p a[href^="http://www.aywas.com/adoption/"], /* adoption center */
+p a[href^="http://www.aywas.com/pet_gift/"], /* gift pet */
+p a[href^="http://www.aywas.com/pet_auction/"], /* auction pet */
+p a[href^="http://www.aywas.com/pp/upload/"], /* upload larger image */ 
+p a[href^="http://www.aywas.com/pets/fauna/"] /* fauna */ { 
+display: none !important; }
+
+/* holiday buttons */
+a[href^="http://www.aywas.com/holiday_tree/give/pet/"] /* send to gift tree */ {
+display: none !important; }
+
+div.center a.a-button[href^="http://www.aywas.com/pets/edit/"] /* edit button */ {
+display: block;
+position: absolute;
+top: 5px;
+right: 0px;
+width: 85px; }
+
+div.center a.a-button[href^="http://www.aywas.com/pets/active/"] /* active button */ {
+display: block;
+position: absolute;
+top: 5px;
+right: 100px;
+width: 85px }
+
+div.center form input.a-button[value="Post Comment"] /*brings back post comment button */{
+display: inline !important;
+position: static !important; }
+
+.center, .center h1, .center h2 {
+color: rgba(0,0,0,0.0) !important; }
+
+.center #mama, .center table.y-tables {
+color: #525252 !important;
+font-family: trebuchet ms;
+font-size: 9pt;
+line-height: 15px; }
+
+/* links */
+a {
+font-weight: bold;
+text-decoration: none !important; }
+
+.panel strong {
+display: block !important;
+margin-bottom: 5px;
+border-bottom: 1px solid #525252; }
+
+img {
+max-width: 100%; }
+
+::selection {
+background: rgba(0,0,0,0.0); /* Safari */ }
+::-moz-selection {
+background: rgba(0,0,0,0.0); /* Firefox */ }
+
+/* pet image */
+div.center > p:nth-child(1) {
+height: 200px;
+width: 200px;
+border-radius: 100%;
+overflow: hidden;
+background: #BBC4D1;
+box-shadow: 0px 0px 3px 3px #234B65;
+border: 4px solid #C7E0F1;
+padding: 30px;
+position: absolute;
+top: 10px;
+left: -10px;
+z-index: 10000 !important;
+transition: 1s all ease-out; }
+
+div.center > p:nth-child(1) > img {
+position: relative;
+top: -10px; }
+
+div.center > p:nth-child(1):after {
+content: "dream";
+display: block !important;
+background: rgba(255,255,255,0.0);
+box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.0);
+font-family: times new roman;
+font-size: 17px;
+letter-spacing: 1px;
+text-align: center;
+color: transparent;
+font-variant: small-caps;
+text-transform: capitalize;
+height: 30px;
+width: 260px;
+line-height: 30px;
+position: absolute;
+top: 110px;
+left: -400px;
+z-index: 1000;
+transition: 1s all ease-out; }
+
+div.center > p:nth-child(1):hover:after {
+background: rgba(35, 75, 101, 0.8);
+box-shadow: 0px 0px 10px 5px #234B65;
+left: 0px;
+color: #CBD3DD;
+transition: 1s all ease-out; }
+
+/* custom box */
+#cc {
+background: #BBC4D1;
+position: absolute;
+top: 50px;
+left: 175px;
+box-shadow: inset 0px 0px 3px 3px #234B65;
+border: 4px solid #C7E0F1; 
+padding: 20px 10px;
+width: 500px; }
+
+#cc #title {
+background: #C7E0F1;
+color: #ffffff;
+margin-left: 98px;
+margin-bottom: 240px;
+width: 412px;
+box-shadow: -7px 0px 3px 3px #234B65; 
+position: relative;
+line-height: 1.5; 
+font-family: baskerville old face;
+font-variant: small-caps;
+text-transform: capitalize; 
+letter-spacing: 2px;
+font-size: 25px; } 
+
+#cc .sub-title {
+text-align: right;
+font-family: arial;
+font-size: 10px;
+margin-top: -10px;
+letter-spacing: 1px;
+text-transform: none !important;
+padding-right: 10px;
+font-variant: none !important;
+color: #234B65; }
+
+#cc .buffer {
+color: rgba(0,0,0,0.0);
+background: #C7E0F1;
+width: 7px;
+height: 42.5px;
+position: absolute;
+top: 0px;
+left: -7px; }
+
+#cc #title2 {
+background: url(https://66.media.tumblr.com/4a960a405495da1ff190f6ef8042f134/tumblr_pk8767vq3o1rhk4rn_540.gif);
+background-size: 100% auto;
+color: #ffffff;
+text-shadow: 0px 0px 5px #CFFFFF; 
+position: relative;
+line-height: 1.5; 
+font-family: baskerville old face;
+font-variant: small-caps;
+text-transform: capitalize; 
+letter-spacing: 2px;
+font-size: 25px; 
+margin: 20px -10px;
+box-shadow: 0px 0px 3px 3px #234B65; 
+position: relative; }
+
+#cc #title2 .border {
+background: transparent;
+border-top: 4px solid #C7E0F1;
+border-bottom: 1px solid #C7E0F1;
+height: 10px;
+color: rgba(0,0,0,0.0); 
+text-shadow: none !important; }
+
+#cc #title2 .two {
+border-top: 1px solid #C7E0F1 !important;
+border-bottom: 4px solid #C7E0F1 !important; }
+
+#cc #title2 .buffer {
+background: #C7E0F1;
+height: 100px;
+width: 4px;
+color: rgba(0,0,0,0.0);
+position: absolute;
+top: -15px;
+text-shadow: none !important; }
+
+#cc #title2 .left {
+left: -4px; }
+
+#cc #title2 .right {
+left: 520px !important; }
+
+#cc #main-box {
+border: 4px solid #C7E0F1 !important;
+background: #9CA3AD;
+box-shadow: 0px 0px 3px 3px #234B65;
+text-align: justify;
+text-justify: inter-word;
+width: 400px;
+margin: 0px auto;
+height: 300px;
+overflow: hidden; }
+
+#cc #main-box .content {
+width: 395px;
+height: 275px;
+overflow-y: scroll;
+overflow-x: hidden;
+padding: 10px;
+padding-right: 50px;
+color: #BBC4D1;
+text-shadow: 1px 1px 1px #234B65; }
+
+#credits {
+background: #C7E0F1;
+box-shadow: 0px 0px 3px 3px #234B65;
+margin: 0px -10px;
+margin-top: 20px;
+margin-bottom: -5px;
+padding: 3px 0px;
+position: relative;
+letter-spacing: -1px;
+font-family: verdana;
+font-size: 11px;
+color: #ffffff;
+text-shadow: 0px 0px 2px #234B65; }
+
+#cc #credits .buffer {
+background: #C7E0F1;
+height: 35px;
+width: 4px;
+color: rgba(0,0,0,0.0);
+position: absolute;
+top: -5px;
+text-shadow: none !important; }
+
+#cc #credits .left {
+left: -4px; }
+
+#cc #credits .right {
+left: 520px !important; } 
+
+
+/* comments */
+div.center > form:last-child {
+display: none;
+background: #F5FAFA;
+border-radius: 5px; 
+opacity: 0.85;
+border: 2px solid #6D929B;
+width: 231px;
+padding: 0px;
+padding-top: 20px;
+position: absolute;
+top: 170px;
+right: 10px; }
+
+div.center > form:last-child:hover {
+opacity: 0.95; }
+
+div.center > form:last-child textarea {
+width: 200px !important; 
+height: 100px !important;
+font-family: trebuchet ms;
+font-size: 9pt;
+line-height: 15px;
+color: #525252; }
+
+/* tables */
+table.y-tables {
+display: block !important;
+color: #000000 !important;
+width: 400px !important;
+height: 200px !important;
+position: absolute !important;
+overflow: hidden !important;
+top: 135px;
+left: 280px;
+opacity: 1;
+font-size: 9pt !important;
+border: 4px solid #C7E0F1 !important;
+background: #9CA3AD;
+box-shadow: 0px 0px 3px 3px #234B65; }
+
+table.y-tables > tbody:nth-child(1) {
+width: 380px !important;
+height: 180px !important;
+display: block !important;
+overflow-y: scroll !important;
+overflow-x: hidden !important;
+margin: 10px !important;
+padding-right: 50px !important; }
+
+/* making 1 column */
+table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1), table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) {
+display: block !important;
+width: 385px !important; }
+
+table.y-tables tr.highlight th {
+border-radius: 5px 5px 2px 2px;
+text-align: left;
+padding: 0px 0px 0px 0px !important;
+padding-left: 5px !important;
+margin-bottom: 6px;
+font-size: 15px !important;
+background-color: transparent;
+color: #BBC4D1;
+text-shadow: 0 1px 0 #234B65;
+line-height: 20px;
+font-weight: bold;
+font-style: normal; }
+
+table.y-tables tr.highlight {
+background: transparent !important; }
+
+table.y-tables td p {
+padding: 0px !important; }
+
+table.y-tables > tbody > tr > td > table {
+float: none !important;
+clear: both !important;
+background: transparent;
+border-radius: 5px; 
+margin: 0px 0px 10px -5px;
+border: 2px solid rgba(0,0,0,0.0);
+padding: 2px 0px;
+color: #ffffff !important; }
+
+/* erase challenge fauna */
+table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(2) {
+display: none; }
+
+/* breeding rules */
+table.y-tables > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1) {
+text-align: justify !important;
+text-justify: inter-word;
+padding: 5px; }
+
+table.y-tables > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1)  strong {
+display: block !important;
+border-bottom: 1px solid #525252;
+margin-bottom: 5px; }
+
+/* removing like section */
+
+div.center table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1),
+div.center table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2),
+div.center table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(3) {
+display: none !important; }
+
+/* table delete other */
+div.center table.y-tables  > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(3), /* offspring */
+div.center table.y-tables  > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(4), /* fauna */
+div.center table.y-tables  > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(5), /* hidden item */
+div.center table.y-tables  > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(4), /* owners */
+div.center table.y-tables  > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(2) /* needs */ 
+{
+display: none !important; }
