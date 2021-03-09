@@ -1,0 +1,259 @@
+/* erase menus, footers, etc. */
+#page-header, #side, #footer, #user-notice-table, .page-notice {
+display: none !important; }
+
+/* creates the canvas */
+
+html {
+height: 100%;
+width: 100%;
+background: url(http://i.imgur.com/8Yc1wyA.png) #FFEBC3;
+background-size: 25px 25px; }
+
+body {
+height: 100%;
+width: 100%;
+padding: 0px !important; 
+background: transparent !important; }
+
+#gradient, #container, #backdrop, #main, #content, #content div.center {
+height: 100% !important;
+width: 1000px !important;
+margin: 0px auto !important;
+padding: 0px !important;
+position: relative !important;
+border: 0px solid #00ff00 !important;
+background: transparent !important; }
+
+#main {
+min-height: 1000px !important; }
+
+img {
+max-width: 100%; }
+
+/* erase */
+
+a[href^="http://www.aywas.com/pet_shops/add_pet/?petid"], /* sent pet to shop link */
+p a[href^="http://www.aywas.com/pp/comments/"], /* view comments */
+div.center table[width="500"] /* comments */ {
+display: none !important; }
+
+div.center > p:nth-child(9), /* pet page */
+div.center a.a-button, div.center input.a-button /* buttons */ {
+display: none !important; }
+
+div.center form input.a-button[value="Post Comment"] /*brings back post comment button */{
+display: inline !important; }
+
+.center, .center h1, .center h2 {
+color: rgba(0,0,0,0.0); }
+
+.center #mama, .center table.y-tables {
+color: #525252 !important; }
+
+/* comment box */
+div.center > form:last-child{
+background: #ffffff;
+border: 1px solid #525252;
+opacity: 0.85;
+transition: 0.5s all ease-out;
+width: 400px;
+height: 163px;
+padding: 30px;
+position: absolute;
+top: 755px;
+left: 330px; }
+
+div.center > form:last-child:hover {
+opacity: 1.0;
+transition: 0.5s all ease-out; }
+
+div.center > form:last-child textarea {
+width: 370px !important;
+height: 125px !important;
+font-family: courier;
+font-size: 11px; }
+
+input {
+font-family: courier;
+font-size: 11px; }
+
+/* pet info tables */
+table.y-tables {
+width: 300px !important;
+font-family: courier;
+font-size: 10px;
+background: #ffffff !important;
+border: 1px solid #525252 !important;
+padding: 10px !important; 
+opacity: 0.85;
+transition: 0.5s all ease-out;
+position: absolute !important;
+top: 10px;
+left: 10px; }
+
+table.y-tables:hover {
+opacity: 1.0;
+transition: 0.5s all ease-out; }
+
+/* fixing table in chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+ table.y-tables {
+ height: 970px !important; } 
+}
+
+/* table headers */
+
+table.y-tables tbody tr.highlight {
+background: transparent !important; }
+
+table.y-tables tbody tr.highlight th {
+background: #C88952 !important;
+border-bottom: 2px solid #525252 !important;
+color: #525252 !important;
+font-weight: normal;
+font-family: courier;
+font-size: 13px;
+letter-spacing: 1px; }
+
+/* making 1 column */
+table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1), table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) {
+display: block !important;
+width: 100% !important; }
+
+/* erase fauna button */
+table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(2) {
+display: none !important; }
+
+/* remove "remove fauna" button */
+table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(4) {
+display: none !important; }
+
+/* remove fauna points */
+table.y-tables > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(3) {
+display: none !important; }
+
+/* pet image */
+div.center > p:nth-child(1) {
+background: #ffffff;
+border: 1px solid #525252;
+height: 200px;
+width: 200px;
+padding: 25px !important;
+opacity: .85;
+transition: 0.5s all ease-out;
+position: absolute;
+top: 10px;
+left: 330px;  }
+
+div.center > p:nth-child(1):hover {
+opacity: 1.0;
+transition: 0.5s all ease-out; }
+
+/* highlighting text */
+::-moz-selection { /* Code for Firefox */
+color: #ffffff;
+background: #A1AECC; }
+
+::selection {
+color: #ffffff;
+background: #A1AECC; }
+
+/* custom boxes */
+.panel {
+border: 1px solid #525252;
+padding: 10px;
+background: #ffffff;
+opacity: .85;
+transition: 0.5s all ease-out;
+position: absolute;
+font-family: courier;
+font-size: 11px;
+text-align: left;
+overflow: auto; }
+
+.panel:hover {
+opacity: 1.0;
+transition: 0.5s all ease-out; }
+
+#mama h3 {
+background: #C88952 !important;
+border-bottom: 2px solid #525252 !important;
+color: #525252 !important;
+font-weight: normal;
+font-family: courier;
+font-size: 13px;
+letter-spacing: 1px;
+text-align: center;
+margin-bottom: 3px; }
+
+#mama ul li {
+background: url(http://st.deviantart.net/emoticons/b/bulletorange.gif) left center no-repeat;
+background-size: 5px 5px;
+padding-left: 10px; }
+
+/* links */
+#links {
+height: 15px;
+width: 360px;
+top: 10px;
+left: 600px;
+text-align: center;
+overflow: hidden; }
+
+/* basic */
+#basic {
+height: 175px;
+width: 360px;
+top: 65px;
+left: 600px; }
+
+/* friends */
+#friends {
+left: 330px;
+top: 275px;
+width: 350px;
+height: 183px; }
+
+#friends img {
+opacity: 0.75;
+transition: 0.5s all ease-out;
+max-height: 50px; }
+
+#friends img:hover {
+transiion: 0.5s all ease-out;
+opacity: 1.0; }
+
+/* likes & dislikes */
+#likes {
+left: 720px;
+top: 275px;
+width: 240px;
+height: 183px; }
+
+#likes .likes, #likes .dislikes {
+display: inline-block !important;
+width: 46%;
+margin: 0px 1%;
+vertical-align: top !important; }
+
+/* persona */
+#persona {
+height: 230px;
+width: 296px;
+top: 490px;
+left: 330px; }
+
+/* story */
+#story {
+height: 230px;
+width: 296px;
+top: 490px;
+left: 664px; }
+
+/* credits */
+#credits {
+height: 203px;
+width: 150px;
+top: 755px;
+left: 810px; }
