@@ -1,0 +1,47 @@
+/* Fair warning: this is actually a really, really terrible profile that I made back 
+when I was first figuring out Aywas customization coding. I think I made it within a
+month of joining? Something like that ... Apparently some people still use it? Wild. */
+
+html {
+background-color: gray;
+background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+background-repeat: repeat;
+color: #000000;}
+
+div#container {
+position: absolute;
+left: 10%;
+right: 10%; }
+
+div#profile-nav {
+background: url(http://i1204.photobucket.com/albums/bb413/fire115/cat20b.png);
+color: #000000;
+border: none; }
+
+a {
+color: #ffffff;
+text-decoration: none; }
+
+a:hover, div#profile-nav ul#nav-left a:hover, div#profile-nav ul#nav-right li#nav-details a:hover, div#profile-nav ul#nav-right li#nav-layout a:hover {
+color: #ffffff;
+text-decoration: underline; }
+
+div#profile-nav ul#nav-left a, div#profile-nav ul#nav-right li#nav-details a, div#profile-nav ul#nav-right li#nav-layout a {
+color: #ffffff; }
+
+div#column_1 .panel, div#column_2 .panel ,div#column_3 .panel {
+background: url(http://i1204.photobucket.com/albums/bb413/fire115/cat20b.png);
+color: #000000;
+border: 4px solid #000000;
+border-radius: 10px;
+overflow: hidden;}
+
+h1 {
+color: #000000;
+background: transparent;
+font-family: times new roman;
+font-size: 16pt; }
+
+dt, dd, span {
+color: #000000; }
