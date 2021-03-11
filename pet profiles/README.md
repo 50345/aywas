@@ -16,4 +16,4 @@
 
 **Simple Site**
 
-![simple site](https://raw.githubusercontent.com/50345/aywas/main/pet%20profiles/simple%20site/a7a1d72_preview.png)
+![simple site](https://raw.githubusercontent.com/50345/aywas/main/pet%20profiles/simple%20site/a7a1d78_preview.png)
