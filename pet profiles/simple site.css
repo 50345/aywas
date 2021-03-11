@@ -1,0 +1,81 @@
+.adsbygoogle {
+display: none !important; }
+
+html {
+background: #f8e5e1; }
+
+body {
+background: transparent !important; }
+
+#backdrop, #main, #content, #center {
+background: #f8e5e1 !important; }
+
+table tr.highlight {
+background: transparent !important; }
+
+table tr.highlight th {
+background: #fecdd0 !important; }
+
+table tr.row-2 {
+background: #fecdd0 !important; }
+
+a {
+color: #a73b40 !important; }
+
+a:hover {
+color: darkred !important;
+text-decoration: none !important; }
+
+a.a-button, input {
+background: transparent !important;
+transition: 0.5s all ease-out;
+color: #a73b40 !important; }
+
+a.a-button:hover, input:hover {
+text-shadow: none !important;
+transition: 0.5s all ease-out;
+color: #84a761 !important; }
+
+#user-notice-table {
+border: 1px solid #c15159 !important; }
+
+.center h2 {
+color: darkred;
+font-family: times new roman;
+letter-spacing: 2px; }
+
+.center h1 {
+font-family: times new roman;
+font-size: 25px;
+letter-spacing: 3px;
+color: #c15159;
+font-style: italic;
+text-transform: lowercase; }
+
+a[href^="http://www.aywas.com/pet_shops/add_pet/?petid"] {
+display: none; }
+
+#page-header {
+background: transparent !important; }
+
+#page-nav ul li {
+border: none !important; }
+
+.sub-nav-cap {
+background: transparent !important; }
+
+.sub-nav-lb {
+background: #fbd7ba !important; }
+
+.sub-nav{
+background: rgba(0,0,0,0.85) !important;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+box-shadow: 2px 2px 6px #fbd7ba; }
+
+#page-nav > ul > li:hover {
+background: #fbd7ba !important; }
+
+textarea {
+background: #fbd7ba !important;
+color: #88393f !important; }
